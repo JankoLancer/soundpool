@@ -1,4 +1,23 @@
-## 1.0.1
+## 2.0.0-nullsafety.0
+Null-safety support 
+
+### 1.1.3
+* Bugfix (iOS & MacOS): Guard against invalid values of `poolId`
+
+### 1.1.2
+* Bugfix (iOS): Guard against invalid values of `soundId`
+* Add note about error value returned from `loadXXX` methods
+
+### 1.1.1
+* Bugfix (iOS): `stop()` not working correctly sometimes
+
+## 1.1.0
+* **MacOS support**
+* Bugfix (iOS): sound not played anymore after calling `stop()`
+* iOS: Loading sound file from URL is done in `.uitility` queue instead of `main`
+* Multiple assertions added to help debugging app
+
+### 1.0.1
 * Homepage url fix
 ## 1.0.0 (21-02-2020)
 * Migrated to use platform interface
